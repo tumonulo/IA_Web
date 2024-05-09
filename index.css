@@ -1,0 +1,393 @@
+html {
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(63, 63, 63);
+
+}
+
+
+input.reset {
+    background-color: rgb(193, 2, 2);
+    border-radius: 40%;
+    border-color: black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+
+
+
+}
+
+textarea.main {
+    background-color: rgb(130, 130, 130);
+    border-radius: 12px;
+    width: 510px;
+    height: 40px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+
+
+    max-height: 150px;
+    min-height: 40px;
+    padding: 10px;
+
+
+
+
+}
+
+::placeholder {
+    color: rgb(51, 51, 51);
+}
+
+input.submit {
+    background-color: rgb(1, 88, 94);
+    border-radius: 40%;
+    border-color: black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+
+}
+
+div {
+    display: flex;
+    align-items: center;
+
+}
+
+#submit:disabled {
+    background-color: rgb(0, 70, 75);
+    cursor: not-allowed;
+}
+
+#reset:disabled {
+    background-color: rgb(149, 1, 1);
+    cursor: not-allowed;
+}
+
+#respuesta {
+    width: 530px;
+    height: 500px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-style: none;
+    margin-left: 125px;
+    margin-top: 15px;
+    resize: none;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.message {
+    border: 2px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    overflow: unset;
+    white-space: pre-line;
+
+}
+
+.menudeopciones {
+    height: 430px;
+    width: 325px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10%;
+    box-shadow: 0px 0px 2px white;
+    padding: 5px;
+    align-items: flex-start;
+    display: block;
+
+
+
+
+
+
+}
+
+.menudeopciones2 {
+    height: 160px;
+    width: 325px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10%;
+    box-shadow: 0px 0px 2px white;
+    padding: 5px;
+    align-items: flex-start;
+
+    
+
+
+
+
+}
+
+.juntosdivs {
+    display: flex;
+    align-items: center;
+
+}
+
+.codigo {
+    border: 2px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(34, 34, 34);
+    width: 500px;
+    color: rgb(171, 221, 142);
+
+}
+
+.precodigo {
+    border: 2px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(247, 169, 80);
+    max-width: 500px;
+
+}
+
+.nuevochat {
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 5px;
+    height: 68px;
+    font-size: 17.5px;
+    overflow-x: auto;
+    white-space: pre-line;
+
+
+}
+
+.chats {
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+
+
+    width: 324px;
+    height: 32px;
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+.botonn {
+
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+    padding: 1px;
+    border-radius: 20px;
+    width: 300px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.botonn2 {
+
+    background-color: rgb(56, 55, 55);
+    color: white;
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+    padding: 1px;
+    border-radius: 20px;
+    width: 300px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+
+
+
+}
+.eliminarchat {
+    background-color: rgb(249, 2, 2);
+    color: white;
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+    padding: 1px;
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#botones1[disabled] {
+    visibility: hidden;
+}
+
+#botones2[disabled] {
+    visibility: hidden;
+}
+
+#botones3[disabled] {
+    visibility: hidden;
+}
+
+#botones4[disabled] {
+    visibility: hidden;
+}
+
+#botones5[disabled] {
+    visibility: hidden;
+}
+
+#botones6[disabled] {
+    visibility: hidden;
+}
+
+#botones7[disabled] {
+    visibility: hidden;
+}
+
+#botones8[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones1[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones2[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones3[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones4[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones5[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones6[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones7[disabled] {
+    visibility: hidden;
+}
+
+#eliminarbotones8[disabled] {
+    visibility: hidden;
+}
+
+#botones1 {
+    visibility: visible;
+}
+#botones2 {
+    visibility: visible;
+}
+
+#botones3 {
+    visibility: visible;
+}
+
+#botones4 {
+    visibility: visible;
+}
+
+#botones5 {
+    visibility: visible;
+}
+
+#botones6 {
+    visibility: visible;
+}
+
+#botones7 {
+    visibility: visible;
+}
+
+#botones8 {
+    visibility: visible;
+}
+
+#eliminarbotones1 {
+    visibility: visible;
+}
+
+#eliminarbotones2 {
+    visibility: visible;
+}
+
+#eliminarbotones3 {
+    visibility: visible;
+}
+
+#eliminarbotones4 {
+    visibility: visible;
+}
+
+#eliminarbotones5 {
+    visibility: visible;
+}
+
+#eliminarbotones6 {
+    visibility: visible;
+}
+
+#eliminarbotones7 {
+    visibility: visible;
+}
+
+#eliminarbotones8 {
+    visibility: visible;
+}
+
+#audioPlayer {
+    width: 530px;
+    height: 50px;   
+    min-height: 50px; 
+}
+.colorsi {
+background-color: rgb(56, 55, 55);;
+
+}

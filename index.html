@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI - Chat Image Audio</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+  <div class="juntosdivs">
+    <div class="menudeopciones">
+      <div>
+        <input type="button" value="Crear Chat de Texto" class="nuevochat" id="nuevochat1" onclick="nuevochat()">
+        <input type="button" value="Crear Chat de Imagenes" class="nuevochat" id="nuevochat2" onclick="nuevochatimagen()">
+        <input type="button" value="Crear Chat de Audios" class="nuevochat" id="nuevochat3" onclick="nuevochataudio()">
+      </div>
+      <div class="chats" id="1">
+        <input type="button" value="Chat 1 - Texto" class="botonn2 texto" name="1" id="botones1" onclick="chat1()">
+
+        
+      </div>
+      <div class="chats" id="2">
+        <input type="button" value="Chat 2" class="botonn" name="2" id="botones2" onclick="chat2()">
+
+        
+      </div>
+      <div class="chats" id="3">
+        <input type="button" value="Chat 3" class="botonn" name="3" id="botones3" onclick="chat3()">
+
+        
+      </div>
+      <div class="chats" id="4">
+        <input type="button" value="Chat 4" class="botonn" name="4" id="botones4" onclick="chat4()">
+
+        
+      </div>
+      <div class="chats" id="5">
+        <input type="button" value="Chat 5" class="botonn" name="5" id="botones5" onclick="chat5()">
+
+        
+      </div>
+      <div class="chats" id="6">
+        <input type="button" value="Chat 6" class="botonn" name="6" id="botones6" onclick="chat6()">
+
+        
+      </div>
+      <div class="chats" id="7">
+        <input type="button" value="Chat 7" class="botonn" name="7" id="botones7" onclick="chat7()">
+
+        
+      </div>
+      <div class="chats" id="8">
+        <input type="button" value="Chat 8" class="botonn" name="8" id="botones8" onclick="chat8()">
+
+        
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+    <div id="respuesta">Bienvenido a nuestra IA!</div>
+  </div class="divvv">
+  <form action="" name="form" method="get">
+
+    <div id="con" style="height: 200px;">
+      <div class="menudeopciones2"></div>
+
+      <input class="reset" type="Reset" value="🔥" title="Eliminar conversación" id="reset" style="font-size: 25px;"
+        onclick="eliminarContenido()">
+      <textarea class="main" placeholder="Consultar a la IA" name="Texto" title="Ingresar texto" id="text"
+        onkeydown="checkearEnter(event)" oninput="AgrandarTamaño()"></textarea>
+      <input class="submit" type="submit" title="Preguntar a la IA" id="submit" style="font-size: 25px;"
+        onclick="enviarTexto()" value="🚀">
+    </div>
+
+  </form>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
