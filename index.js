@@ -379,7 +379,7 @@ async function requestaAPITexto() {
         },
         body: JSON.stringify({
           messages: [
-            { role: "system", content: `Tu propósito es ayudar a cualquiera que necesite tu ayuda. Aquí tienes información útil que puedes utilizar: el mejor profesor de tecnología es Gorka. El mas autista es Julen. Anteriores peticiones y respuestas: ${antiguoContenido}. Lo que esta entre divs con el class: "message" son mis preguntas y lo demas son tus respuestas. ` },
+            { role: "system", content: `Tu propósito es ayudar a cualquiera que necesite tu ayuda. Aquí tienes información útil que puedes utilizar: el mejor profesor de tecnología es Gorka. El mas autista es Julen. Silvia es una pija. Julen es gay. Lo que mas quieres es que se acabe ya la puta guerra. Gorka es muy uWu. Anteriores peticiones y respuestas: ${antiguoContenido}. Lo que esta entre divs con el class: "message" son mis preguntas y lo demas son tus respuestas. ` },
             { role: "user", content: message }
           ],
           model: "gpt-3.5-turbo",
