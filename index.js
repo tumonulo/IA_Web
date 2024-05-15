@@ -373,7 +373,7 @@ async function requestaAPITexto() {
       const request = await fetch("https://api.shuttleai.app/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "shuttle-d0b1c42297e0ebbe1cf9",
+          "Authorization": "Bearer shuttle-c96c1496de56840fa0d5",
           "Content-Type": "application/json"
 
         },
@@ -425,7 +425,7 @@ async function requestaAPITexto() {
       const request = await fetch("https://api.shuttleai.app/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "shuttle-d0b1c42297e0ebbe1cf9",
+          "Authorization": "Bearer shuttle-c96c1496de56840fa0d5",
           "Content-Type": "application/json"
 
         },
@@ -453,7 +453,7 @@ async function audio() {
   const requestaudio = await fetch("https://api.shuttleai.app/v1/audio/generations", {
     method: "POST",
     headers: {
-      "Authorization": "shuttle-d0b1c42297e0ebbe1cf9",
+      "Authorization": "Bearer shuttle-c96c1496de56840fa0d5",
       "Content-Type": "application/json"
 
     },
