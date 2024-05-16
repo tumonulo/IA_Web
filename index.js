@@ -460,7 +460,6 @@ async function audio() {
     body: JSON.stringify({
       model: "eleven-labs",
       voicecu: "thomas",
-      input: resultadoaudio
     })
   });
   resultadoaudiojson = await requestaudio.json();
