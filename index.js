@@ -450,7 +450,7 @@ async function requestaAPITexto() {
 
 async function audio() {
   const resultadoaudio = resultado.choices[0].message.content;
-  const requestaudio = await fetch("https://api.shuttleai.app/v1/audio/generations", {
+  const requestaudio = await fetch("https://api.shuttleai.app/v1/audio/speech", {
     method: "POST",
     headers: {
       "Authorization": "Bearer shuttle-c96c1496de56840fa0d5",
@@ -460,7 +460,7 @@ async function audio() {
     body: JSON.stringify({
       model: "eleven-labs",
       voicecu: "thomas",
-      prompt: resultadoaudio
+      input: resultadoaudio
     })
   });
   resultadoaudiojson = await requestaudio.json();
